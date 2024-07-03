@@ -25,9 +25,8 @@ const transporter = nodemailer.createTransport({
 
 // Middleware
 const corsOptions = {
-  origin: 'https://portfolio-shekhar-sharmas-projects-52c851c1.vercel.app',
-  methods: 'GET,POST,PUT,DELETE,OPTIONS',  
-  allowedHeaders: 'Content-Type,Authorization', 
+  origin: ['https://portfolio-shekhar-sharmas-projects-52c851c1.vercel.app'],
+  methods: ['GET,POST,PUT,DELETE,OPTIONS'],   
   credentials: true,
 };
 
