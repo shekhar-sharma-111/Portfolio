@@ -11,8 +11,8 @@ const projects = [
   {
     name: 'Portfolio',
     description: 'Personal Portfolio Website using MERN  and Tailwind CSS',
-    codeLink: 'https://github.com/shekhar-sharma-111/Online-Voting-System',
-    liveLink: '',
+    codeLink: 'https://github.com/shekhar-sharma-111/Portfolio',
+    liveLink: 'https://portfolio-shekhar-sharmas-projects-52c851c1.vercel.app/',
   },
   {
     name: 'Ecommerce',
