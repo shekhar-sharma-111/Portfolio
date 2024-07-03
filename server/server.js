@@ -60,7 +60,7 @@ app.post('/contact', async (req, res) => {
       from: process.env.EMAIL ,
       to:  process.env.EMAIL,
       subject: 'protfolio contact request',
-      text: `someone want to contact with email:${email} \n message:${message} `
+      text: `someone named:${name} want to contact with email:${email} \n message:${message} `
       };
     const newContact = new Contact({ name, email, message });
     await newContact.save();
