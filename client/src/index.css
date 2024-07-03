@@ -1,0 +1,17 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    background-color: black;
+    color: white;
+  }
+  a {
+    color: inherit;
+  }
+  a:hover {
+    color: #dbeafe; /* Indigo color */
+  }
+  
