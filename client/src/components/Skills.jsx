@@ -31,12 +31,22 @@ export default function Skills() {
         <h2 className="text-5xl font-bold text-white text-center mb-12 hover:text-indigo-600">My Skills</h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-8">
           {skills.map((skill) => (
-            <a
-              key={skill.name}
-{/*               href={skill.link} */}
-    href={}
-              target="_blank"
-              rel="noopener noreferrer"
+            // <a
+            //   key={skill.name}
+            //   href={skill.link}
+   
+            //   target="_blank"
+            //   rel="noopener noreferrer"
+            //   className="flex flex-col items-center p-4 rounded-lg hover:bg-gray-800 transition-all duration-300 transform hover:scale-110 hover:shadow-xl"
+            // >
+            //   <img
+            //     src={skill.logo}
+            //     alt={skill.name}
+            //     className="h-16 w-16 mb-4"
+            //   />
+            //   <p className="text-white text-center">{skill.name}</p>
+            // </a>
+          <div
               className="flex flex-col items-center p-4 rounded-lg hover:bg-gray-800 transition-all duration-300 transform hover:scale-110 hover:shadow-xl"
             >
               <img
@@ -45,7 +55,7 @@ export default function Skills() {
                 className="h-16 w-16 mb-4"
               />
               <p className="text-white text-center">{skill.name}</p>
-            </a>
+            </div>
           ))}
         </div>
       </div>
