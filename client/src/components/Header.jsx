@@ -99,7 +99,7 @@ export default function Header() {
       </header>
       <main>
         <HomePage />
-{/*         <Skills /> */}
+        <Skills />
         <Projects />
         <Contact />
         <Footer />
