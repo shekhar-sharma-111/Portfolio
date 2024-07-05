@@ -4,7 +4,8 @@ export default function Contact() {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
   const [submitStatus, setSubmitStatus] = useState('');
 
-  const apiUrl ="https://portfolio-g31z.vercel.app/contact";
+  // const apiUrl ="https://portfolio-g31z.vercel.app/contact";
+   const apiUrl ="https://portfolio-server-1.vercel.app/contact";
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
