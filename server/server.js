@@ -58,7 +58,8 @@ app.post('/contact', async (req, res) => {
     const { name, email, message } = req.body;
     const mailOptions = {
       from: process.env.EMAIL ,
-      to:  process.env.EMAIL,
+    //  to:  process.env.EMAIL,
+      to:'shekharsharma7206@gmail.com',
       subject: 'protfolio contact request',
       text: `email:${email} \n message:${message} `
       };
