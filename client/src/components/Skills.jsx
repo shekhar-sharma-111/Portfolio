@@ -33,7 +33,8 @@ export default function Skills() {
           {skills.map((skill) => (
             <a
               key={skill.name}
-              href={skill.link}
+{/*               href={skill.link} */}
+    href={}
               target="_blank"
               rel="noopener noreferrer"
               className="flex flex-col items-center p-4 rounded-lg hover:bg-gray-800 transition-all duration-300 transform hover:scale-110 hover:shadow-xl"
