@@ -20,7 +20,7 @@ export default function Contact() {
       });
 
       if (response.ok) {
-        setSubmitStatus('Message sent successfully , please dont send unecessary messages');
+        setSubmitStatus('Message sent successfully , please dont send unnecessary messages');
       } else {
         setSubmitStatus('Failed to send message');
       }
