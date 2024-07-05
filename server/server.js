@@ -17,10 +17,19 @@ const transporter = nodemailer.createTransport({
   port: 465,
   secure:true,
   auth: {
-    user: 'shekharkaushik601@gmail.com',
-    pass:'nyxg loxl zvuw uohr'
+    user: process.env.EMAIL,
+    pass: process.env.PASSWORD
     }
     });
+// const transporter = nodemailer.createTransport({
+//   service:'gmail',
+//   port: 465,
+//   secure:true,
+//   auth: {
+//     user: 'shekharkaushik601@gmail.com',
+//     pass:'nyxg loxl zvuw uohr'
+//     }
+//     });
    
 
 // Middleware
@@ -55,11 +64,10 @@ const Contact = mongoose.model('contacts', contactSchema);
 // Handle form submission
 app.post('/contact', async (req, res) => {
   try {
-    const Email ='shekharkaushik601@gmail.com';
     const { name, email, message } = req.body;
     const mailOptions = {
-      from: Email ,
-      to:  Email,
+      from: process.env.EMAIL ,
+      to:  process.env.EMAIL,
       subject: 'protfolio contact request',
       text: `someone want to contact with email:${email} \n message:${message} `
       };
