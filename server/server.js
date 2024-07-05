@@ -17,8 +17,8 @@ const transporter = nodemailer.createTransport({
   port: 465,
   secure:true,
   auth: {
-    user: process.env.EMAIL,
-    pass: process.env.PASSWORD
+    user: 'shekharkaushik601@gmail.com',
+    pass:'nyxg loxl zvuw uohr'
     }
     });
    
@@ -55,10 +55,11 @@ const Contact = mongoose.model('contacts', contactSchema);
 // Handle form submission
 app.post('/contact', async (req, res) => {
   try {
+    const Email ='shekharkaushik601@gmail.com';
     const { name, email, message } = req.body;
     const mailOptions = {
-      from: process.env.EMAIL ,
-      to:  process.env.EMAIL,
+      from: Email ,
+      to:  Email,
       subject: 'protfolio contact request',
       text: `someone want to contact with email:${email} \n message:${message} `
       };
