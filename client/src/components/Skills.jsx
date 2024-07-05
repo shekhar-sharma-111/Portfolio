@@ -12,7 +12,7 @@ const skills = [
   { name: 'C++', logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZNYG08hKj5oCT0N34qwh37dAw6LJtnCf3HQ&s' },
   { name: 'Bootstrap', logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1280px-Bootstrap_logo.svg.png'},
   { name: 'Git', logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/1280px-Git-logo.svg.png' },
-    ]
+    ];
 
 export default function Skills() {
   return (
@@ -22,9 +22,7 @@ export default function Skills() {
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-8">
           {skills.map((skill) => (
        
-          <div
-              className="flex flex-col items-center p-4 rounded-lg hover:bg-gray-800 transition-all duration-300 transform hover:scale-110 hover:shadow-xl"
-            >
+          <div  className="flex flex-col items-center p-4 rounded-lg hover:bg-gray-800 transition-all duration-300 transform hover:scale-110 hover:shadow-xl">
               <img
                 src={skill.logo}
                 alt={skill.name}
