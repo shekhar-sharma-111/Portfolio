@@ -46,7 +46,7 @@ export default function HomePage() {
                 Download Resume
               </a> */}
               <a
-                href="https://drive.google.com/file/d/1fuM1FEn-QHWPZPFUTFIM4A6UedNTyCmy/view?usp=drivesdk"
+                href="https://drive.google.com/file/d/1GvUsprCLaks2q6ezUq4AAsoLkgFnCcX8/view?usp=sharing"
                 className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                 target="_blank"
                 rel="noopener noreferrer"
