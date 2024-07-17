@@ -20,6 +20,12 @@ const projects = [
     codeLink: 'https://github.com/shekhar-sharma-111/Ecommerce',
     liveLink: '',
   },
+    {
+    name: 'Password generator',
+    description: 'HTML CSS ans JS',
+    codeLink: '',
+    liveLink: '',
+  },
   {
     name: 'Unit Converter',
     description: 'Uint converter for length conversion using HTML CSS and Js',
