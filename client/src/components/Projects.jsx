@@ -23,8 +23,8 @@ const projects = [
     {
     name: 'Password generator',
     description: 'HTML CSS ans JS',
-    codeLink: '',
-    liveLink: '',
+    codeLink: 'https://github.com/shekhar-sharma-111/Password-generator',
+    liveLink: 'https://password-generator-ten-self.vercel.app/',
   },
   {
     name: 'Unit Converter',
