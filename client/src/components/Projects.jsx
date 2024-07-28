@@ -14,6 +14,12 @@ const projects = [
     codeLink: 'https://github.com/shekhar-sharma-111/Portfolio',
     liveLink: 'https://portfolio-shekhar-sharmas-projects-52c851c1.vercel.app/',
   },
+{
+    name: 'Chat-app',
+    description: 'Nodejs chat app with user authentication.',
+    codeLink: 'https://github.com/shekhar-sharma-111/Chat_app',
+    liveLink: '',
+  },
   {
     name: 'Ecommerce',
     description: 'Online Shoping Website using MERN stack and Tailwind CSS',
