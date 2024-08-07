@@ -38,12 +38,12 @@ const projects = [
     codeLink: 'https://github.com/shekhar-sharma-111/Unit-Converter',
       liveLink: 'https://unit-converter-flax-two.vercel.app/',
   },
-  {
-    name: 'Temp. Converter',
-    description: 'Temperature converter for temp conversion using HTML CSS and Js',
-    codeLink: 'https://github.com/shekhar-sharma-111/OIBSIP_TASK3_LEVEL3_temperature_converter',
-    liveLink: 'https://temperature-converter-orpin-six.vercel.app/',
-  },
+  // {
+  //   name: 'Temp. Converter',
+  //   description: 'Temperature converter for temp conversion using HTML CSS and Js',
+  //   codeLink: 'https://github.com/shekhar-sharma-111/OIBSIP_TASK3_LEVEL3_temperature_converter',
+  //   liveLink: 'https://temperature-converter-orpin-six.vercel.app/',
+  // },
 
   {
     name: 'Calculator',
