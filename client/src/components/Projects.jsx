@@ -20,6 +20,13 @@ const projects = [
     codeLink: 'https://github.com/shekhar-sharma-111/Chat_app',
     liveLink: '',
   },
+
+  {
+    name: 'Drag-drop Cards',
+    description: 'Reactjs web application use canvas features us to add cards , show description,delete, and drag-drop',
+    codeLink: 'https://github.com/shekhar-sharma-111/drag-drop-cards.git',
+    liveLink: 'https://drag-drop-cards.vercel.app/',
+  },
   {
     name: 'Ecommerce',
     description: 'Online Shoping Website using MERN stack and Tailwind CSS',
