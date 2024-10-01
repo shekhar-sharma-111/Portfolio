@@ -8,6 +8,12 @@ const projects = [
     codeLink: 'https://github.com/shekhar-sharma-111/Chat_app',
     liveLink: 'https://chat-app-ckgr.onrender.com/',
   },
+ {
+    name: 'SneakTalk',
+    description: 'Nextjs application for getting anonymous messages by sharing public url.',
+    codeLink: 'https://github.com/shekhar-sharma-111/SNEAKTALK.git',
+    liveLink: 'https://sneaktalk.onrender.com/u/shekhar',
+  },
  
   {
     name: 'Portfolio',
